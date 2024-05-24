@@ -15,7 +15,7 @@ document.getElementById("result").innerHTML = localStorage.hits
 "use strict"
 
 let clickCount = 0
-clickCount = localStorage.getItem(clickCount) || 0
+clickCount = localStorage.getItem("clickCount") || 0
 
 function updateCookieCount() {
   clickCount++
